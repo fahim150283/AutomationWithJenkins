@@ -1,0 +1,15 @@
+{
+  "Home": [
+    {"browser": "chrome", "url": "http://192.168.1.101:4444", "location": "home"},
+    {"browser": "firefox", "url": "http://192.168.1.101:4444", "location": "home"},
+    {"browser": "edge", "url": "http://192.168.1.101:4444", "location": "home"}
+  ],
+  "Office": [
+    {"browser": "chrome", "url": "http://192.168.30.74:4444", "location": "office"},
+    {"browser": "firefox", "url": "http://192.168.30.74:4444", "location": "office"},
+    {"browser": "edge", "url": "http://192.168.30.74:4444", "location": "office"},
+    {"browser": "chrome", "url": "http://192.168.30.72:4444", "location": "office"},
+    {"browser": "firefox", "url": "http://192.168.30.72:4444", "location": "office"},
+    {"browser": "edge", "url": "http://192.168.30.72:4444", "location": "office"}
+  ]
+}
