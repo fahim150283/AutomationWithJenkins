@@ -1,9 +1,7 @@
-Grid\TestRemote$1.class
 Utilities\RetryListner.class
 Utilities\TestListenersforAllureReport.class
 Utilities\TestConfig.class
 Utilities\TakeScreenshotUsingAshot.class
-Grid\TestRemote.class
 Utilities\MonitoringMail$SMTPAuthenticator.class
 TestCases\SimpleCases\TestCases1.class
 Utilities\Setup.class
@@ -11,5 +9,4 @@ Utilities\MonitoringMail.class
 TestCases\SimpleCases\TestCases2.class
 Utilities\EmailConfigReader.class
 Utilities\TestListeners.class
-Grid\TestParallel.class
 Utilities\Retry.class

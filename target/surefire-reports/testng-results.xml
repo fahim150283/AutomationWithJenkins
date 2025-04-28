@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="2" failed="6" skipped="2">
+<testng-results ignored="0" total="6" passed="2" failed="2" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T16:09:22 BDT" name="Surefire suite" finished-at="2025-04-28T16:10:01 BDT" duration-ms="39223">
+  <suite started-at="2025-04-28T16:15:21 BDT" name="Surefire suite" finished-at="2025-04-28T16:15:39 BDT" duration-ms="18154">
     <groups>
     </groups>
-    <test started-at="2025-04-28T16:09:22 BDT" name="Surefire test" finished-at="2025-04-28T16:10:01 BDT" duration-ms="39223">
+    <test started-at="2025-04-28T16:15:21 BDT" name="Surefire test" finished-at="2025-04-28T16:15:39 BDT" duration-ms="18154">
       <class name="TestCases.SimpleCases.TestCases1">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:43 BDT" name="setUp" finished-at="2025-04-28T16:09:44 BDT" duration-ms="1056" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:21 BDT" name="setUp" finished-at="2025-04-28T16:15:22 BDT" duration-ms="1632" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFail()[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:44 BDT" name="testFail" finished-at="2025-04-28T16:09:48 BDT" duration-ms="3601" status="FAIL">
+        <test-method signature="testFail()[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:22 BDT" name="testFail" finished-at="2025-04-28T16:15:26 BDT" duration-ms="3571" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Intentional Failure for demo.]]>
@@ -69,11 +69,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFail -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:48 BDT" name="afterTest" finished-at="2025-04-28T16:09:48 BDT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:26 BDT" name="afterTest" finished-at="2025-04-28T16:15:26 BDT" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:48 BDT" name="setUp" finished-at="2025-04-28T16:09:50 BDT" duration-ms="1355" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:26 BDT" name="setUp" finished-at="2025-04-28T16:15:27 BDT" duration-ms="967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,15 +89,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPass()[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:50 BDT" name="testPass" finished-at="2025-04-28T16:09:50 BDT" duration-ms="8" status="PASS">
+        <test-method signature="testPass()[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:27 BDT" name="testPass" finished-at="2025-04-28T16:15:27 BDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:50 BDT" name="afterTest" finished-at="2025-04-28T16:09:50 BDT" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:27 BDT" name="afterTest" finished-at="2025-04-28T16:15:27 BDT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:50 BDT" name="setUp" finished-at="2025-04-28T16:09:51 BDT" duration-ms="1178" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:27 BDT" name="setUp" finished-at="2025-04-28T16:15:28 BDT" duration-ms="986" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSkip()[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:51 BDT" name="testSkip" finished-at="2025-04-28T16:09:51 BDT" duration-ms="4" status="SKIP">
+        <test-method signature="testSkip()[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:28 BDT" name="testSkip" finished-at="2025-04-28T16:15:28 BDT" duration-ms="2" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Intentional Skip for demo.]]>
@@ -158,297 +158,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSkip -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases1@60d8c0dc]" started-at="2025-04-28T16:09:51 BDT" name="afterTest" finished-at="2025-04-28T16:09:51 BDT" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases1@89c10b7]" started-at="2025-04-28T16:15:28 BDT" name="afterTest" finished-at="2025-04-28T16:15:28 BDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestCases.SimpleCases.TestCases1 -->
-      <class name="Grid.TestRemote">
-        <test-method signature="TestChrome()[pri:1, instance:Grid.TestRemote@2ce86164]" started-at="2025-04-28T16:09:22 BDT" name="TestChrome" finished-at="2025-04-28T16:09:32 BDT" duration-ms="9369" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'TECHTEAM-FAHIM', ip: '192.168.30.72'
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'TECHTEAM-FAHIM', ip: '192.168.30.72'
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at Grid.TestRemote.TestChrome(TestRemote.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-... 35 more
-Caused by: java.net.ConnectException
-at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
-at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
-at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
-at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.nio.channels.ClosedChannelException
-at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202)
-at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786)
-at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
-at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestChrome -->
-        <test-method signature="TestFirefox()[pri:2, instance:Grid.TestRemote@2ce86164]" started-at="2025-04-28T16:09:32 BDT" name="TestFirefox" finished-at="2025-04-28T16:09:38 BDT" duration-ms="6701" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'TECHTEAM-FAHIM', ip: '192.168.30.72'
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'TECHTEAM-FAHIM', ip: '192.168.30.72'
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at Grid.TestRemote.TestFirefox(TestRemote.java:55)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-... 35 more
-Caused by: java.net.ConnectException
-at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
-at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
-at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
-at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.nio.channels.ClosedChannelException
-at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202)
-at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786)
-at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
-at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestFirefox -->
-        <test-method signature="TestEdge()[pri:3, instance:Grid.TestRemote@2ce86164]" started-at="2025-04-28T16:09:38 BDT" name="TestEdge" finished-at="2025-04-28T16:09:43 BDT" duration-ms="5156" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'TECHTEAM-FAHIM', ip: '192.168.30.72'
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}]}]
-Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'TECHTEAM-FAHIM', ip: '192.168.30.72'
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}]}]
-Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, --remote-allow-origins=*, --user-data-dir=/tmp/unique...], extensions: []}}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at Grid.TestRemote.TestEdge(TestRemote.java:77)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:458)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-... 35 more
-Caused by: java.net.ConnectException
-at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
-at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
-at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
-at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.nio.channels.ClosedChannelException
-at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202)
-at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786)
-at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
-at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
-at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
-... 9 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestEdge -->
-      </class> <!-- Grid.TestRemote -->
       <class name="TestCases.SimpleCases.TestCases2">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:09:51 BDT" name="setUp" finished-at="2025-04-28T16:09:52 BDT" duration-ms="1106" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:28 BDT" name="setUp" finished-at="2025-04-28T16:15:29 BDT" duration-ms="1121" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -464,7 +180,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFail2()[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:09:52 BDT" name="testFail2" finished-at="2025-04-28T16:09:58 BDT" duration-ms="6030" status="FAIL">
+        <test-method signature="testFail2()[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:29 BDT" name="testFail2" finished-at="2025-04-28T16:15:36 BDT" duration-ms="6514" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Intentional Failure for demo.]]>
@@ -510,11 +226,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFail2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:09:58 BDT" name="afterTest" finished-at="2025-04-28T16:09:59 BDT" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:36 BDT" name="afterTest" finished-at="2025-04-28T16:15:36 BDT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:09:59 BDT" name="setUp" finished-at="2025-04-28T16:10:00 BDT" duration-ms="1312" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:36 BDT" name="setUp" finished-at="2025-04-28T16:15:37 BDT" duration-ms="1058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,15 +246,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPass2()[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:10:00 BDT" name="testPass2" finished-at="2025-04-28T16:10:00 BDT" duration-ms="4" status="PASS">
+        <test-method signature="testPass2()[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:37 BDT" name="testPass2" finished-at="2025-04-28T16:15:37 BDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPass2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:10:00 BDT" name="afterTest" finished-at="2025-04-28T16:10:00 BDT" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:37 BDT" name="afterTest" finished-at="2025-04-28T16:15:37 BDT" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:10:00 BDT" name="setUp" finished-at="2025-04-28T16:10:01 BDT" duration-ms="1123" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:37 BDT" name="setUp" finished-at="2025-04-28T16:15:39 BDT" duration-ms="1076" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -554,7 +270,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSkip3()[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:10:01 BDT" name="testSkip3" finished-at="2025-04-28T16:10:01 BDT" duration-ms="5" status="SKIP">
+        <test-method signature="testSkip3()[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:39 BDT" name="testSkip3" finished-at="2025-04-28T16:15:39 BDT" duration-ms="4" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Intentional Skip for demo.]]>
@@ -599,62 +315,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSkip3 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases2@303e3593]" started-at="2025-04-28T16:10:01 BDT" name="afterTest" finished-at="2025-04-28T16:10:01 BDT" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.SimpleCases.TestCases2@4602c2a9]" started-at="2025-04-28T16:15:39 BDT" name="afterTest" finished-at="2025-04-28T16:15:39 BDT" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestCases.SimpleCases.TestCases2 -->
-      <class name="Grid.TestParallel">
-        <test-method signature="doSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Grid.TestParallel@2d10e0b1]" started-at="2025-04-28T16:09:22 BDT" name="doSearch" finished-at="2025-04-28T16:09:22 BDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Test on method doSearch but has not been marked @Optional or defined
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Test on method doSearch but has not been marked @Optional or defined
-
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doSearch -->
-      </class> <!-- Grid.TestParallel -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

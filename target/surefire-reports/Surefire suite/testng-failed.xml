@@ -3,26 +3,6 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="Grid.TestParallel">
-        <methods>
-          <include name="doSearch"/>
-        </methods>
-      </class> <!-- Grid.TestParallel -->
-      <class name="Grid.TestRemote">
-        <methods>
-          <include name="TestChrome"/>
-          <include name="TestFirefox"/>
-          <include name="TestEdge"/>
-        </methods>
-      </class> <!-- Grid.TestRemote -->
-      <class name="TestCases.SimpleCases.TestCases2">
-        <methods>
-          <include name="testSkip3"/>
-          <include name="afterTest"/>
-          <include name="setUp"/>
-          <include name="testFail2"/>
-        </methods>
-      </class> <!-- TestCases.SimpleCases.TestCases2 -->
       <class name="TestCases.SimpleCases.TestCases1">
         <methods>
           <include name="afterTest"/>
@@ -31,6 +11,14 @@
           <include name="testSkip"/>
         </methods>
       </class> <!-- TestCases.SimpleCases.TestCases1 -->
+      <class name="TestCases.SimpleCases.TestCases2">
+        <methods>
+          <include name="testSkip3"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="testFail2"/>
+        </methods>
+      </class> <!-- TestCases.SimpleCases.TestCases2 -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
