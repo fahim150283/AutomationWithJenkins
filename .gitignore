@@ -41,8 +41,8 @@ build/
 
 *~
 /PDFs/
-/Reports for Email/
 /.idea/
+/Reports for Email/
 /ExtentReports/
 /allure-results/
 EmailCredentials.json
