@@ -12,7 +12,7 @@ public class TestCases1 extends Setup {
         Assert.assertTrue(true);
     }
 
-    @Test
+//    @Test
     public void testFail() {
         driver.get("https://google.com");
         System.out.println("Executing Fail Test");

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-failed">Surefire suite</span>
+              <span class="suite-name border-skipped">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,  2 skipped,  2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="TestCases.SimpleCases.TestCases1" class="method navigator-link" hash-for-method="testFail">testFail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="TestCases.SimpleCases.TestCases2" class="method navigator-link" hash-for-method="testFail2">testFail2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -161,46 +142,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCases.SimpleCases.TestCases1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFail">
-                  </a> <!-- testFail -->
-                  <span class="method-name">testFail</span>
-                  <div class="stack-trace">java.lang.AssertionError: Intentional Failure for demo.
-	at TestCases.SimpleCases.TestCases1.testFail(TestCases1.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCases.SimpleCases.TestCases2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFail2">
-                  </a> <!-- testFail2 -->
-                  <span class="method-name">testFail2</span>
-                  <div class="stack-trace">java.lang.AssertionError: Intentional Failure for demo.
-	at TestCases.SimpleCases.TestCases2.testFail2(TestCases2.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -326,36 +267,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testFail2')
-data.setCell(0, 2, 'TestCases.SimpleCases.TestCases2')
-data.setCell(0, 3, 6691);
+data.setCell(0, 1, 'testPass')
+data.setCell(0, 2, 'TestCases.SimpleCases.TestCases1')
+data.setCell(0, 3, 26);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testFail')
-data.setCell(1, 2, 'TestCases.SimpleCases.TestCases1')
-data.setCell(1, 3, 4021);
+data.setCell(1, 1, 'testPass2')
+data.setCell(1, 2, 'TestCases.SimpleCases.TestCases2')
+data.setCell(1, 3, 8);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testPass')
-data.setCell(2, 2, 'TestCases.SimpleCases.TestCases1')
-data.setCell(2, 3, 7);
+data.setCell(2, 1, 'testSkip3')
+data.setCell(2, 2, 'TestCases.SimpleCases.TestCases2')
+data.setCell(2, 3, 6);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testSkip')
 data.setCell(3, 2, 'TestCases.SimpleCases.TestCases1')
-data.setCell(3, 3, 5);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testSkip3')
-data.setCell(4, 2, 'TestCases.SimpleCases.TestCases2')
-data.setCell(4, 3, 4);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testPass2')
-data.setCell(5, 2, 'TestCases.SimpleCases.TestCases2')
-data.setCell(5, 3, 3);
+data.setCell(3, 3, 2);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 42 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -387,79 +320,51 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testFail</span>
-                <span class="method-start">1316 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">5351 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false)</span>
-                <span class="method-start">5491 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">testPass</span>
-                <span class="method-start">6371 ms</span>
+                <span class="method-start">1334 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">6382 ms</span>
+                <span class="method-start">1366 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, false)</span>
-                <span class="method-start">6537 ms</span>
+                <span class="method-start">1596 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSkip</span>
-                <span class="method-start">7528 ms</span>
+                <span class="method-start">2782 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">7538 ms</span>
+                <span class="method-start">2788 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.SimpleCases.TestCases2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, false)</span>
-                <span class="method-start">7705 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testFail2</span>
-                <span class="method-start">8605 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">15303 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, false)</span>
-                <span class="method-start">15611 ms</span>
+                <span class="method-start">2936 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPass2</span>
-                <span class="method-start">16553 ms</span>
+                <span class="method-start">3909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">16560 ms</span>
+                <span class="method-start">3920 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, false)</span>
-                <span class="method-start">16722 ms</span>
+                <span class="method-start">4045 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSkip3</span>
-                <span class="method-start">17586 ms</span>
+                <span class="method-start">5118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">17598 ms</span>
+                <span class="method-start">5130 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

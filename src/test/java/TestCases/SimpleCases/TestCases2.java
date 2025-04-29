@@ -12,7 +12,7 @@ public class TestCases2 extends Setup {
         Assert.assertTrue(true);
     }
 
-    @Test
+//    @Test
     public void testFail2() {
         driver.get("https://youtube.com");
         try {

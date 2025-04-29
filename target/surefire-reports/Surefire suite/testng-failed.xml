@@ -7,7 +7,6 @@
         <methods>
           <include name="afterTest"/>
           <include name="setUp"/>
-          <include name="testFail"/>
           <include name="testSkip"/>
         </methods>
       </class> <!-- TestCases.SimpleCases.TestCases1 -->
@@ -16,7 +15,6 @@
           <include name="testSkip3"/>
           <include name="afterTest"/>
           <include name="setUp"/>
-          <include name="testFail2"/>
         </methods>
       </class> <!-- TestCases.SimpleCases.TestCases2 -->
     </classes>
