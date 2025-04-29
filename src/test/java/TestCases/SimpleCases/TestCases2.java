@@ -20,7 +20,7 @@ public class TestCases2 extends Setup {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        Assert.fail("Intentional Failure for demo.");
+        Assert.fail("Intentional Failure for demo");
     }
 
     @Test
